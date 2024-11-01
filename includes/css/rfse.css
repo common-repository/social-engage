@@ -1,0 +1,135 @@
+.heading{
+        margin: 1em 0 0.5em 0;
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif;
+        position: relative;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 15px 15px 15px 15%;
+        color: #355681;
+        box-shadow: inset 0 0 0 1px rgba(53,86,129, 0.4), inset 0 0 5px rgba(53,86,129, 0.5), inset -285px 0 35px white;
+        border-radius: 0 10px 0 10px;
+        background: #fff url(../images/bartoszkosowski.jpg) no-repeat center left;
+    }
+    .sorryHeading
+    {
+        margin: 1em 0 0.5em 0;
+        font-weight: normal;
+        position: relative;
+        text-shadow: 0 -1px rgba(0,0,0,0.6);
+        font-size: 28px;
+        line-height: 40px;
+        background: #355681;
+        background: rgba(53,86,129, 0.8);
+        border: 1px solid #fff;
+        padding: 5px 15px;
+        color: white;
+        border-radius: 0 10px 0 10px;
+        box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+        font-family: 'Muli', sans-serif;
+    }
+    .form-actions{
+        margin: 15px 0;
+        padding: 10px;
+        background: #fbfbfb none repeat scroll 0 0;
+        border: 1px solid #e5e5e5;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+        box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+        min-height: 28px;
+    }
+    .modalDialog {
+        position: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+    }
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+    .close {
+        background: #606061;
+        color: #FFFFFF;
+        line-height: 25px;
+        position: absolute;
+        right: -12px;
+        text-align: center;
+        top: -10px;
+        width: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        -moz-box-shadow: 1px 1px 3px #000;
+        -webkit-box-shadow: 1px 1px 3px #000;
+        box-shadow: 1px 1px 3px #000;
+    }
+    .close:hover {
+        background: #00d9ff;
+    }
+    span.fb_stats {
+        border-radius: 50%;
+        background: #3B5998;
+        color: #fff;
+        padding: 1em 0.8em;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
+    span.ld_stats {
+        border-radius: 50%;
+        background: #0073b1;
+        color: #fff;
+        padding: 1em 0.8em;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
+    span.tw_stats {
+        border-radius: 50%;
+        background: #4099FF;
+        color: #fff;
+        padding: 1em 0.8em;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
+    span.pt_stats {
+        border-radius: 50%;
+        background: #cb2027;
+        color: #fff;
+        padding: 1em 0.8em;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
+    span.total_stats {
+        border-radius: 50%;
+        background: rgba(158, 158, 158, 0.63);
+        color: #fff;
+        padding: 1em 0.8em;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
